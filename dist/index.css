@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+b,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f3f3f3;
+}
+
+.Container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.Linha {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 2px solid #fff;
+}
+
+.Paragraph-mobile-mid {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  color: #AFADB5;
+}
+
+.Header {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Header .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Header-text {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.Header-text a {
+  color: #151411;
+  text-decoration: none;
+}
+.Header-menu a {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #151411;
+  transition: 0.6s;
+}
+.Header-menu a:hover {
+  border-bottom: 3px solid #FFB23F;
+  color: #FFB23F;
+  transition: 0.5s;
+}
+.Header #label {
+  display: none;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 110px;
+  right: 0px;
+  background-color: #518581;
+  z-index: 9999;
+  overflow-y: hidden;
+}
+.Header-icon {
+  display: none;
+}
+.Header #nav.active #label {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  gap: 70px;
+  height: calc(100vh - 70px);
+}
+.Header #btn-mobile {
+  display: flex;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: 10px;
+}
+.Header #hamburguer {
+  display: block;
+  width: 20px;
+  border-top: 2px solid;
+  color: #151411;
+}
+.Header #hamburguer::after, .Header #hamburguer::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 0.3s;
+  position: relative;
+}
+.Header #nav.active #hamburguer {
+  border-top-color: transparent;
+}
+.Header #nav.active #hamburguer::before {
+  transform: rotate(135deg);
+}
+.Header #nav.active #hamburguer::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+@media (min-width: 750px) {
+  .Header-icon {
+    display: block;
+  }
+  .Header #btn-mobile {
+    display: none;
+    padding: 10px;
+  }
+  .Header #label {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 0px;
+    background-color: #f3f3f3;
+  }
+  .Header #label a {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+.Home {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */

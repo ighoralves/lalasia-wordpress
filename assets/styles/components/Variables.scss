@@ -1,0 +1,28 @@
+$black-color: #151411;
+$yellow-color: #FFB23F;
+$grey-color: #AFADB5;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f3f3f3;
+}
+
+.Container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.Linha {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 2px solid #fff;
+}
+
+.Paragraph-mobile-mid {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  color: $grey-color;
+}
