@@ -7,6 +7,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+  <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 	<?php wp_head(); ?>
 </head>
@@ -17,7 +19,7 @@
         <figure class="Header-photo">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Frame.png" alt="Logo Lalasia">
         </figure>
-        <h1 class="Header-text"><a href="index.html">lalasia</a></h1>
+        <h1 class="Header-text"><a href="/projeto">lalasia</a></h1>
       </div>
 
       <div class="Header-menu">
@@ -49,7 +51,6 @@
   </header>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
 
 
 	

@@ -1,0 +1,18 @@
+.Services {
+  margin-top: 100px;
+
+  &-card {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 10px 16px;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: $black-color;
+    margin-top: 16px;
+    margin-bottom: 6px;
+  }
+}

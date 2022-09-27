@@ -1,4 +1,5 @@
 $black-color: #151411;
+$blue-color: #518581;
 $yellow-color: #FFB23F;
 $grey-color: #AFADB5;
 
@@ -25,4 +26,46 @@ body {
   line-height: 180%;
   text-align: center;
   color: $grey-color;
+}
+
+.Paragraph-mobile-left {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: $grey-color;
+  margin-bottom: 10px;
+}
+
+.Title-mobile-mid {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: $yellow-color;
+  margin-bottom: 8px;
+}
+
+.Title-mobile-left {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: $yellow-color;
+  margin-bottom: 10px;
+}
+
+.Text-mobile-mid {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: $black-color;
+  margin-bottom: 18px;
+}
+
+.Text-mobile-left {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: $black-color;
+  margin-bottom: 16px;
 }

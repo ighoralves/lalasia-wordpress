@@ -166,6 +166,48 @@ body {
   color: #AFADB5;
 }
 
+.Paragraph-mobile-left {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #AFADB5;
+  margin-bottom: 10px;
+}
+
+.Title-mobile-mid {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFB23F;
+  margin-bottom: 8px;
+}
+
+.Title-mobile-left {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFB23F;
+  margin-bottom: 10px;
+}
+
+.Text-mobile-mid {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #151411;
+  margin-bottom: 18px;
+}
+
+.Text-mobile-left {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #151411;
+  margin-bottom: 16px;
+}
+
 .Header {
   width: 100%;
   height: 50px;
@@ -210,6 +252,7 @@ body {
   position: absolute;
   text-align: center;
   width: 100%;
+  height: 100%;
   top: 110px;
   right: 0px;
   background-color: #518581;
@@ -285,6 +328,78 @@ body {
 
 .Home {
   margin-top: 50px;
+}
+.Home-content {
+  margin-bottom: 30px;
+}
+.Home-text {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.Home-search {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px 4px;
+}
+.Home-search form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Home-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #518581;
+}
+.Home-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.Home input {
+  border: none;
+  padding: 5px 4px;
+  color: #AFADB5;
+  overflow: hidden;
+}
+.Home input:after {
+  border: none;
+}
+
+.Services {
+  margin-top: 100px;
+}
+.Services-card {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 10px 16px;
+}
+.Services-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #151411;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.Product {
+  margin-top: 100px;
+  max-width: 100%;
+  height: 100%;
+}
+.Product .swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
