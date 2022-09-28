@@ -401,5 +401,73 @@ body {
   margin-bottom: 100px;
   text-align: center;
 }
+.Product .swiper-pagination {
+  top: 170px;
+}
+.Product-discricao {
+  margin-top: 5px;
+}
+.Product-text1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 180%;
+  color: #AFADB5;
+}
+.Product-text2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #151411;
+}
+.Product-text3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #AFADB5;
+}
+@media (min-width: 361px) {
+  .Product .swiper-pagination {
+    top: 285px;
+  }
+}
+
+.Craft-btn {
+  margin-top: 20px;
+}
+.Craft-btns {
+  width: 100%;
+  background-color: #518581;
+  border: none;
+  padding: 15px 0;
+}
+.Craft-btns a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.Craft-numbers {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Craft-text1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  color: #151411;
+}
+.Craft-text2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #AFADB5;
+}
+.Craft-image img {
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=index.css.map */

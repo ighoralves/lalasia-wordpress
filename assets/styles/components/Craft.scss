@@ -1,0 +1,50 @@
+.Craft {
+  // background-color: red;
+  &-btn {
+    margin-top: 20px;
+  }
+
+  &-btns {
+    width: 100%;
+    background-color: $blue-color;
+    border: none;
+    padding: 15px 0;
+
+    a {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 130%;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+
+  &-numbers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-text1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    color: $black-color;
+  }
+
+  &-text2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: $grey-color;
+  }
+
+  &-image {
+    img{
+      margin-top: 20px;
+    }
+  }
+
+}

@@ -10,4 +10,44 @@
     margin-bottom: 100px;
     text-align: center;
   }
+  
+  .swiper-pagination {
+    top: 170px;
+  }
+
+  &-discricao {
+    margin-top: 5px;
+  }
+
+  &-text1 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: $grey-color;
+    // margin-bottom: 10px;
+  }
+
+  &-text2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: $black-color;
+    // margin-bottom: 18px;
+  }
+
+  &-text3 {
+    font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: $grey-color;
+  // margin-bottom: 10px;
+  }
+
+  @media (min-width: 361px) {
+    .swiper-pagination {
+      top: 285px;
+    }
+  
+  }
 }
