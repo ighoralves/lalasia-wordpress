@@ -251,12 +251,14 @@ body {
   display: none;
   position: absolute;
   text-align: center;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  top: 110px;
+  padding: 90px;
+  transition: 2s;
+  top: 0px;
+  transform: translateX(200%);
   right: 0px;
   background-color: #518581;
-  z-index: 9999;
   overflow-y: hidden;
 }
 .Header-icon {
@@ -265,9 +267,8 @@ body {
 .Header #nav.active #label {
   display: flex;
   flex-direction: column;
-  padding-top: 90px;
-  gap: 70px;
-  height: calc(100vh - 70px);
+  gap: 20px;
+  transform: translateX(0);
 }
 .Header #btn-mobile {
   display: flex;
@@ -282,6 +283,7 @@ body {
   display: block;
   width: 20px;
   border-top: 2px solid;
+  z-index: 10;
   color: #151411;
 }
 .Header #hamburguer::after, .Header #hamburguer::before {
@@ -468,6 +470,101 @@ body {
 }
 .Craft-image img {
   margin-top: 20px;
+}
+
+.Comments {
+  margin-top: 100px;
+}
+.Comments-slide {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 15px 16px;
+}
+.Comments-text1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #151411;
+}
+.Comments-image {
+  max-width: 30px;
+  margin-bottom: 5px;
+}
+.Comments-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.Comments-heros {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Article {
+  margin-top: 100px;
+}
+.Article-backs {
+  overflow: hidden;
+}
+.Article-back-img {
+  margin-top: 20px;
+  position: relative;
+}
+.Article-back-content {
+  position: relative;
+  top: -130px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 16px;
+  color: #fff;
+}
+.Article-text1 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 180%;
+}
+.Article-text2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+}
+.Article-text3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+}
+.Article-text4 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 180%;
+  color: #AFADB5;
+}
+.Article-text5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #151411;
+}
+.Article-text6 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 180%;
+  color: #151411;
+}
+.Article-albums {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+.Article-albums-text {
+  max-width: 200px;
+}
+.Article-albums-texts {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /*# sourceMappingURL=index.css.map */

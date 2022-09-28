@@ -206,6 +206,207 @@ get_header();
 			</div>
 		</section>
 
+		<section class="Comments">
+			<div class="Container">
+				<div class="Comments-content">
+					<h2 class="Title-mobile-mid">Testimonials</h2>
+					<h3 class="Text-mobile-mid">What our customer say</h3>
+					<p class="Paragraph-mobile-left">
+						Pellentesque etiam blandit in tincidunt at donec. 
+						Eget ipsum dignissim placerat nisi, adipiscing mauris non purus 
+						parturient.
+					</p>
+				</div>
+
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="Comments-slide">
+								<figure>
+									<img class="Comments-image" src="<?php echo get_template_directory_uri() ?>/assets/icon/conversation.png" alt="">
+								</figure>
+
+								<p class="Paragraph-mobile-left">
+									Pellentesque etiam blandit in tincidunt at donec. 
+									Eget ipsum dignissim placerat nisi, adipiscing mauris non. 
+								</p>
+
+								<div class="Comments-hero">
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+										</figure>
+										<cite class="Comments-text1">Janne Cooper</cite>
+									</div>
+
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/star.png" alt="">
+										</figure>
+										<strong>4.3</strong>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+
+							<div class="Comments-slide">
+								<figure>
+									<img class="Comments-image" src="<?php echo get_template_directory_uri() ?>/assets/icon/conversation.png" alt="">
+								</figure>
+
+								<p class="Paragraph-mobile-left">
+									Pellentesque etiam blandit in tincidunt at donec. 
+									Eget ipsum dignissim placerat nisi, adipiscing mauris non. 
+								</p>
+
+								<div class="Comments-hero">
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+										</figure>
+										<cite class="Comments-text1">Janne Cooper</cite>
+									</div>
+
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/star.png" alt="">
+										</figure>
+										<strong>4.3</strong>
+									</div>
+									
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-slide">
+
+							<div class="Comments-slide">
+								<figure>
+									<img class="Comments-image" src="<?php echo get_template_directory_uri() ?>/assets/icon/conversation.png" alt="">
+								</figure>
+
+								<p class="Paragraph-mobile-left">
+									Pellentesque etiam blandit in tincidunt at donec. 
+									Eget ipsum dignissim placerat nisi, adipiscing mauris non. 
+								</p>
+
+								<div class="Comments-hero">
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+										</figure>
+										<cite class="Comments-text1">Janne Cooper</cite>
+									</div>
+
+									<div class="Comments-heros">
+										<figure>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/icon/star.png" alt="">
+										</figure>
+										<strong>4.3</strong>
+									</div>
+									
+								</div>
+							</div>
+
+						</div>
+					</div>
+      		<div class="swiper-pagination"></div>
+    		</div>
+			</div>
+		</section>
+
+		<section class="Article">
+			<div class="Container">
+				<div class="Articles-content">
+					<h2 class="Title-mobile-left">Articles</h2>
+					<h3 class="Text-mobile-left">The best furniture comes from Lalasia</h3>
+					<p class="Paragraph-mobile-left">Pellentesque etiam blandit in tincidunt at donec. </p>
+				</div>
+
+				<div class="Article-backs">
+					<div class="Article-back-img">
+						<figure>
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/fundo.png" alt="">
+						</figure>
+					</div>
+					<div class="Article-back-content">
+						<p class="Article-text1">Tips and Trick</p>
+						<h3 class="Article-text2">Create Cozy Dinning Room Vibes</h3>
+						<p class="Article-text3">Decorating with neutrals brings balance</p>
+						<h3 class="Article-text1">Read More</h3>
+					</div>
+				</div>
+
+				<div class="Article-album">
+					<div class="Article-albums">
+						<figure>
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 66.png" alt="">
+						</figure>
+						
+						<div class="Article-albums-text">
+							<p class="Article-text4">Tips and Trick</p>
+							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
+							<div class="Article-albums-texts">
+								<figure>
+									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+								</figure>
+								<cite class="Article-text6">By Jerremy Jean</cite>
+							</div>
+						</div>
+
+					</div>
+					<div class="Article-albums">
+						<figure>
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 67.png" alt="">
+						</figure>
+						
+						<div class="Article-albums-text">
+							<p class="Article-text4">Tips and Trick</p>
+							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
+							<div class="Article-albums-texts">
+								<figure>
+									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+								</figure>
+								<cite class="Article-text6">By Jerremy Jean</cite>
+							</div>
+						</div>
+
+					</div>
+					<div class="Article-albums">
+						<figure>
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 68.png" alt="">
+						</figure>
+						
+						<div class="Article-albums-text">
+							<p class="Article-text4">Tips and Trick</p>
+							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
+							<div class="Article-albums-texts">
+								<figure>
+									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
+								</figure>
+								<cite class="Article-text6">By Jerremy Jean</cite>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="Especial">
+			<div class="Container">
+				<div class="Especial-content">
+					<h3 class="Especial-text1">
+						Join with me for get special
+						discount
+					</h3>
+					<button type="submit">Learn More</button>
+				</div>
+			</div>
+		</section>
+
 	</main>
 <?php
 get_footer();
