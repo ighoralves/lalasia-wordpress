@@ -29,10 +29,10 @@
   }
 
   &-menu {
-    
+    transition: 1s;
     a {
       width: 100%;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 500;
       // border-bottom: 3px solid #000;
 
@@ -53,14 +53,14 @@
     display: none;
     position: absolute;
     text-align: center;
-    width: 80%;
-    height: 100%;
-    padding: 90px;
-    transition: 2s;
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+    padding: 120px 0;
     top: 0px;
     transform: translateX(200%);
     right: 0px;
-    background-color: #518581;
+    background-color: $blue-color;
     overflow-y: hidden;
 
   }
@@ -72,6 +72,7 @@
   #nav.active #label {
     display: flex;
     flex-direction: column;
+    transition: 1s;
     gap: 20px;
     transform: translateX(0);  
   }
@@ -135,7 +136,13 @@
       display: flex;
       align-items: center;
       gap: 30px;
+      max-width: 100%;
+      padding: 0;
+      height: 100%;
+      overflow: initial;
+      /* left: 20px; */
       position: relative;
+      right: 483px;
       top: 0px;
       background-color: #f3f3f3;
 
