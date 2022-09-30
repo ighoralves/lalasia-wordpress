@@ -1,0 +1,26 @@
+.Especial {
+  margin-top: 100px;
+  &-text1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    color: $black-color;
+
+    
+  }
+
+  &-btn {
+    border: none;
+    background-color: $blue-color;
+    padding: 15px 50px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+    
+    }
+  }
+}

@@ -402,7 +402,7 @@ get_header();
 						Join with me for get special
 						discount
 					</h3>
-					<button type="submit">Learn More</button>
+					<button class="Especial-btn" type="submit"><a href="#">Learn More</a></button>
 				</div>
 			</div>
 		</section>
