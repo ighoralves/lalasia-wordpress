@@ -3,6 +3,7 @@ get_header();
 ?>
 
 	<main>
+		
 		<section class="Home">
 			<div class="Container">
 
@@ -408,6 +409,7 @@ get_header();
 		</section>
 
 	</main>
+
 <?php
 get_footer();
 ?>
