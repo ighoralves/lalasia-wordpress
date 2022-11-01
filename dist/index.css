@@ -242,7 +242,7 @@ body {
   font-weight: 500;
   text-transform: capitalize;
   text-decoration: none;
-  color: #151411;
+  color: #FFF;
   transition: 0.6s;
 }
 .Header-menu a:hover {
@@ -254,15 +254,14 @@ body {
   display: none;
   position: absolute;
   text-align: center;
-  width: 70%;
-  height: 60%;
-  border-radius: 20px;
+  width: 50%;
+  height: 100%;
   padding: 120px 0;
   top: 0px;
-  transform: translateX(200%);
+  transform: transition(200%);
+  transition: 2s;
   right: 0px;
-  background-color: #518581;
-  overflow-y: hidden;
+  background-color: #1D1C19;
 }
 .Header-icon {
   display: none;
@@ -270,9 +269,9 @@ body {
 .Header #nav.active #label {
   display: flex;
   flex-direction: column;
-  transition: 1s;
+  transition: 3s;
   gap: 20px;
-  transform: translateX(0);
+  transform: translate(0);
 }
 .Header #btn-mobile {
   display: flex;
@@ -299,16 +298,19 @@ body {
   margin-top: 5px;
   transition: 0.3s;
   position: relative;
+  color: #151411;
 }
 .Header #nav.active #hamburguer {
   border-top-color: transparent;
 }
 .Header #nav.active #hamburguer::before {
   transform: rotate(135deg);
+  color: #fff;
 }
 .Header #nav.active #hamburguer::after {
   transform: rotate(-135deg);
   top: -7px;
+  color: #fff;
 }
 @media (min-width: 750px) {
   .Header-icon {
@@ -328,13 +330,12 @@ body {
     overflow: initial;
     /* left: 20px; */
     position: relative;
-    right: 483px;
-    top: 0px;
     background-color: #f3f3f3;
   }
   .Header #label a {
     font-size: 18px;
     font-weight: normal;
+    color: #000;
   }
 }
 

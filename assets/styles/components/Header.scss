@@ -38,7 +38,7 @@
 
       text-transform: capitalize;
       text-decoration: none;
-      color: $black-color;
+      color: #FFF;
 
       transition: .6s;
 
@@ -53,15 +53,15 @@
     display: none;
     position: absolute;
     text-align: center;
-    width: 70%;
-    height: 60%;
-    border-radius: 20px;
+    width: 50%;
+    height: 100%;
     padding: 120px 0;
     top: 0px;
-    transform: translateX(200%);
+    transform: transition(200%);
+    transition: 2s;
     right: 0px;
-    background-color: $blue-color;
-    overflow-y: hidden;
+    background-color: #1D1C19;
+    // overflow-y: hidden;
 
   }
 
@@ -72,9 +72,9 @@
   #nav.active #label {
     display: flex;
     flex-direction: column;
-    transition: 1s;
+    transition: 3s;
     gap: 20px;
-    transform: translateX(0);  
+    transform: translate(0);  
   }
 
   #btn-mobile {
@@ -105,6 +105,7 @@
       margin-top: 5px;
       transition: .3s;
       position: relative;
+      color: $black-color;
     }
   }
 
@@ -113,11 +114,13 @@
 
     &::before {
       transform: rotate(135deg);
+      color: #fff;
     }
 
     &::after {
       transform: rotate(-135deg);
       top: -7px;
+      color: #fff;
     }
   }
 
@@ -142,13 +145,14 @@
       overflow: initial;
       /* left: 20px; */
       position: relative;
-      right: 483px;
-      top: 0px;
+      // right: 483px;
+      // top: 0px;
       background-color: #f3f3f3;
 
       a {
         font-size: 18px;
         font-weight: normal;
+        color: #000;
       }
     }
   }
