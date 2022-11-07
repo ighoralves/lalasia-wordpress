@@ -600,6 +600,24 @@ body {
   font-size: 14px;
 }
 
+.Back-to-top {
+  position: fixed;
+  right: 4px;
+  bottom: 6rem;
+  clip-path: circle();
+  /* font-size: 0px; */
+  line-height: 0;
+  z-index: 10;
+  transition: 0.4s;
+  max-width: 10%;
+  transform: translateY(100%);
+}
+.Back-to-top .show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .Footer {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -641,6 +659,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.Footer-list li:hover {
+  transform: scale(1.1);
 }
 .Footer-list a {
   text-decoration: none;

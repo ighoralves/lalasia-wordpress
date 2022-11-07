@@ -1,0 +1,18 @@
+.Back-to-top {
+  position: fixed;
+  right: 4px;
+  bottom: 6rem;
+  clip-path: circle();
+  /* font-size: 0px; */
+  line-height: 0;
+  z-index: 10;
+  transition: 0.4s;
+  max-width: 10%;
+  transform: translateY(100%);
+
+  .show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

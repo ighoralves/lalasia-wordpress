@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-	<main>
+	<main class="Main">
 		
 		<section class="Home">
 			<div class="Container">
@@ -132,6 +132,21 @@ get_header();
 								<picture>
 									<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-5.png">
 									<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-2.png" alt="">
+								</picture>
+
+							</div>
+							<div class="Product-discricao">
+								<p1 class="Product-text1">Chair</p1>
+								<h3 class="Product-text2">White Aesthetic Chair</h3>
+								<p class="Product-text3">Combination of wood and wool</p>
+								<strong>$63,47</strong>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="Product-image">
+								<picture>
+									<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-6.png">
+									<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-3.png" alt="">
 								</picture>
 
 							</div>
@@ -398,7 +413,7 @@ get_header();
 
 		<?php include(TEMPLATEPATH . '/inc/template-especial.php'); ?>
 		
-	</main>
+	
 
 <?php
 get_footer();

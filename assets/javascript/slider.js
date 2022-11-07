@@ -5,9 +5,13 @@ import Swiper, { Navigation, Pagination } from "swiper";
 Swiper.use([Navigation, Pagination]);
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+      setWrapperSize: true,
+    },
+  },
   spaceBetween: 30,
-  freeMode: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
