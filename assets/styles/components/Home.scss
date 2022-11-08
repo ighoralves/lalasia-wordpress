@@ -53,4 +53,31 @@
       border: none;
     }
   }
+
+
+  @media (min-width: 500px) {
+
+    .Home {
+      &-text {
+        font-weight: 700;
+        line-height: 130%;
+        width: 330px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      &-text1 {
+        width: 350px;
+        margin: 0 auto;
+      }
+
+      &-search {
+        width: 350px;
+        margin: 0 auto;
+        position: relative;
+        top: 30px;
+      }
+    }
+  }
+
 }

@@ -12,7 +12,7 @@ get_header();
 						Discover Furniture With High Quality Wood
 					</h1>
 
-					<p class="Paragraph-mobile-mid">
+					<p class="Paragraph-mobile-mid Home-text1" >
 					Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, 
 					adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam 
 					tincidunt aliquam adipiscing tempor.
@@ -44,17 +44,25 @@ get_header();
 		<section class="Services">
 			<div class="Container">
 				<div class="Services-content">
-					<h2 class="Title-mobile-left">
-						Benefits
-					</h2>
-					<h3 class="Text-mobile-left">
-						Benefits when using our services
-					</h3>
-					<p class="Paragraph-mobile-left">
-						Pellentesque etiam blandit in tincidunt at donec. 
-						Eget ipsum dignissim placerat nisi, adipiscing mauris 
-						non purus parturient.
-					</p>
+					<div>
+
+						<h2 class="Title-mobile-left">
+							Benefits
+						</h2>
+						<h3 class="Text-mobile-left">
+							Benefits when using our services
+						</h3>
+					</div>
+
+					<div>
+
+						<p class="Paragraph-mobile-left Services-text1">
+							Pellentesque etiam blandit in tincidunt at donec. 
+							Eget ipsum dignissim placerat nisi, adipiscing mauris 
+							non purus parturient.
+						</p>
+					</div>
+					
 				</div>
 
 				<div class="Services-cards">
@@ -211,12 +219,12 @@ get_header();
 
 				<div class="Craft-tumb">
 					<picture class="Craft-image">
-						<source media="(min-width: 361px)" srcset="">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/img-3.png" alt="">
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/sofa.svg" alt="Um sofa">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/img-3.png" alt="Um sofa">
 					</picture>
 					<picture class="Craft-image">
-						<source media="(min-width: 361px)" srcset="">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/img-4.png" alt="">
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/farpas.svg" alt="Uma mesa cheia de farpas">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/img/img-4.png" alt="Uma mesa cheia de farpas">
 					</picture>
 				</div>
 			</div>
@@ -344,6 +352,7 @@ get_header();
 				<div class="Article-backs">
 					<div class="Article-back-img">
 						<figure>
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/mesa-flor.svg" alt="">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/fundo.png" alt="">
 						</figure>
 					</div>

@@ -384,6 +384,25 @@ body {
 .Home input:after {
   border: none;
 }
+@media (min-width: 500px) {
+  .Home .Home-text {
+    font-weight: 700;
+    line-height: 130%;
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .Home .Home-text1 {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .Home .Home-search {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+}
 
 .Services {
   margin-top: 100px;
@@ -400,6 +419,14 @@ body {
   color: #151411;
   margin-top: 16px;
   margin-bottom: 6px;
+}
+@media (min-width: 500px) {
+  .Services-content {
+    display: flex;
+  }
+  .Services-text1 {
+    width: 250px;
+  }
 }
 
 .Product {
@@ -482,7 +509,6 @@ body {
 .Craft-image img {
   margin-top: 20px;
 }
-
 .Comments {
   margin-top: 100px;
 }
