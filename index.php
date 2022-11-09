@@ -181,6 +181,8 @@ get_header();
 							</div>
 						</div>
 					</div>
+					<div class="swiper-button-next"></div>
+      		<div class="swiper-button-prev"></div>
       		<div class="swiper-pagination"></div>
     		</div>
 			</div>
@@ -351,10 +353,10 @@ get_header();
 
 				<div class="Article-backs">
 					<div class="Article-back-img">
-						<figure>
-						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 8.png" alt="">
+						<picture>
+							<source media="(min-width: 400px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-8.png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/fundo.png" alt="">
-						</figure>
+						</picture>
 					</div>
 					<div class="Article-back-content">
 						<p class="Article-text1">Tips and Trick</p>
@@ -366,46 +368,46 @@ get_header();
 
 				<div class="Article-album">
 					<div class="Article-albums">
-						<figure>
-						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20.png">
+						<picture>
+							<source media="(min-width: 600px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-7.png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 66.png" alt="">
-						</figure>
+						</picture>
 						
 						<div class="Article-albums-text">
 							<p class="Article-text4">Tips and Trick</p>
 							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
 							<div class="Article-albums-texts">
-								<figure>
-								<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20 (1).png">
+								<picture>
 									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
-								</figure>
+								</picture>
 								<cite class="Article-text6">By Jerremy Jean</cite>
 							</div>
 						</div>
 
 					</div>
 					<div class="Article-albums">
-						<figure>
-						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20 (2).png">
+						<picture>
+						<source media="(min-width: 600px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-9.png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 67.png" alt="">
-						</figure>
+						</picture>
 						
 						<div class="Article-albums-text">
 							<p class="Article-text4">Tips and Trick</p>
 							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
 							<div class="Article-albums-texts">
-								<figure>
+								<picture>
 									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
-								</figure>
+								</picture>
 								<cite class="Article-text6">By Jerremy Jean</cite>
 							</div>
 						</div>
 
 					</div>
 					<div class="Article-albums">
-						<figure>
+						<picture>
+							<source media="(min-width: 600px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle-10.png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 68.png" alt="">
-						</figure>
+						</picture>
 						
 						<div class="Article-albums-text">
 							<p class="Article-text4">Tips and Trick</p>

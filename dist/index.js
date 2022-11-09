@@ -12715,14 +12715,22 @@ _swiper.default.use([_swiper.Navigation, _swiper.Pagination]);
 var swiper = new _swiper.default(".mySwiper", {
   breakpoints: {
     600: {
-      slidesPerView: 2,
+      // slidesPerView: 3,
       setWrapperSize: true
     }
   },
-  spaceBetween: 30,
+  slidesPerView: 3,
+  spaceBetween: 10,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
   }
 });
 },{"swiper":"../node_modules/swiper/swiper.esm.js"}],"javascript/back-to-top.js":[function(require,module,exports) {
@@ -12850,7 +12858,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50262" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50250" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -7,13 +7,21 @@ Swiper.use([Navigation, Pagination]);
 var swiper = new Swiper(".mySwiper", {
   breakpoints: {
     600: {
-      slidesPerView: 2,
+      // slidesPerView: 3,
       setWrapperSize: true,
     },
   },
-  spaceBetween: 30,
+  slidesPerView: 3,
+  spaceBetween: 10,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
