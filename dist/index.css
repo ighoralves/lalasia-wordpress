@@ -272,6 +272,7 @@ body {
   transition: 3s;
   gap: 20px;
   transform: translate(0);
+  z-index: 5;
 }
 .Header #btn-mobile {
   display: flex;
@@ -509,6 +510,13 @@ body {
 .Craft-image img {
   margin-top: 20px;
 }
+@media (min-width: 500px) {
+  .Craft-btn {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
 .Comments {
   margin-top: 100px;
 }

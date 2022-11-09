@@ -190,7 +190,7 @@ get_header();
 			<div class="Container">
 				<div class="Craft-content">
 					<h2 class="Title-mobile-left">Our Product</h2>
-					<h3 class="Text-mobile-left">Crafted by talented and high quality material</h3>
+					<h3 class="Text-mobile-left Craft-text">Crafted by talented and high quality material</h3>
 					<p class="Paragraph-mobile-left">
 						Pellentesque etiam blandit in tincidunt at donec. 
 						Eget ipsum dignissim placerat nisi, adipiscing mauris 
@@ -352,7 +352,7 @@ get_header();
 				<div class="Article-backs">
 					<div class="Article-back-img">
 						<figure>
-						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/mesa-flor.svg" alt="">
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 8.png" alt="">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/fundo.png" alt="">
 						</figure>
 					</div>
@@ -367,6 +367,7 @@ get_header();
 				<div class="Article-album">
 					<div class="Article-albums">
 						<figure>
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20.png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 66.png" alt="">
 						</figure>
 						
@@ -375,6 +376,7 @@ get_header();
 							<h3 class="Article-text5">6 ways to give your home minimalistic vibes</h3>
 							<div class="Article-albums-texts">
 								<figure>
+								<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20 (1).png">
 									<img src="<?php echo get_template_directory_uri() ?>/assets/icon/hero.png" alt="">
 								</figure>
 								<cite class="Article-text6">By Jerremy Jean</cite>
@@ -384,6 +386,7 @@ get_header();
 					</div>
 					<div class="Article-albums">
 						<figure>
+						<source media="(min-width: 361px)" srcset="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 20 (2).png">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Rectangle 67.png" alt="">
 						</figure>
 						

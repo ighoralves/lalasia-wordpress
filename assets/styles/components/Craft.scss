@@ -48,7 +48,17 @@
   }
 
   @media (min-width: 500px) {
+    // &-text {
+    //   width: 400px;
+    //   text-align: center;
+    //   margin: 0 auto;
+    //   margin-bottom: 10px;
+    // }
     
+    &-btn {
+      width: 350px;
+      margin: 0 auto;
+    }
   }
 
 }
